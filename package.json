@@ -1,0 +1,36 @@
+{
+  "name": "glowbuzzer-issue-template",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A template for a vanilla Glowbuzzer React app",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "bugs": {
+    "url": "https://github.com/glowbuzzer/gbr/issues"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.8",
+    "@glowbuzzer/controls": "1.9.0",
+    "@glowbuzzer/store": "1.9.0",
+    "@types/node": "^18.16.16",
+    "@types/react": "^18.2.5",
+    "@types/react-dom": "^18.2.3",
+    "@types/three": "^0.152.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "antd": "5.7.3",
+    "dseg": "^0.46.0",
+    "flexlayout-react": "^0.7.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
+    "three": "^0.152.2",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.5"
+  }
+}
